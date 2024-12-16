@@ -1,0 +1,375 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\swift\\OneDrive\\Documents\\GitHub\\grimdanger\\grimdanger\\Unity.2D.Common.Runtime.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\swift\\OneDrive\\Documents\\GitHub\\grimdanger\\grimdanger\\Unity.2D.Common.Runtime.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\swift\\OneDrive\\Documents\\GitHub\\grimdanger\\grimdanger\\Unity.2D.Common.Runtime.csproj",
+        "projectName": "Unity.2D.Common.Runtime",
+        "projectPath": "C:\\Users\\swift\\OneDrive\\Documents\\GitHub\\grimdanger\\grimdanger\\Unity.2D.Common.Runtime.csproj",
+        "packagesPath": "C:\\Users\\swift\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\swift\\OneDrive\\Documents\\GitHub\\grimdanger\\grimdanger\\Temp\\obj\\Debug\\Unity.2D.Common.Runtime\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\swift\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "C:\\Users\\swift\\OneDrive\\Documents\\GitHub\\grimdanger\\grimdanger\\Unity.Mathematics.csproj": {
+                "projectPath": "C:\\Users\\swift\\OneDrive\\Documents\\GitHub\\grimdanger\\grimdanger\\Unity.Mathematics.csproj"
+              },
+              "C:\\Users\\swift\\OneDrive\\Documents\\GitHub\\grimdanger\\grimdanger\\UnityEditor.UI.csproj": {
+                "projectPath": "C:\\Users\\swift\\OneDrive\\Documents\\GitHub\\grimdanger\\grimdanger\\UnityEditor.UI.csproj"
+              },
+              "C:\\Users\\swift\\OneDrive\\Documents\\GitHub\\grimdanger\\grimdanger\\UnityEngine.UI.csproj": {
+                "projectPath": "C:\\Users\\swift\\OneDrive\\Documents\\GitHub\\grimdanger\\grimdanger\\UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\swift\\OneDrive\\Documents\\GitHub\\grimdanger\\grimdanger\\Unity.Mathematics.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\swift\\OneDrive\\Documents\\GitHub\\grimdanger\\grimdanger\\Unity.Mathematics.csproj",
+        "projectName": "Unity.Mathematics",
+        "projectPath": "C:\\Users\\swift\\OneDrive\\Documents\\GitHub\\grimdanger\\grimdanger\\Unity.Mathematics.csproj",
+        "packagesPath": "C:\\Users\\swift\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\swift\\OneDrive\\Documents\\GitHub\\grimdanger\\grimdanger\\Temp\\obj\\Debug\\Unity.Mathematics\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\swift\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "C:\\Users\\swift\\OneDrive\\Documents\\GitHub\\grimdanger\\grimdanger\\UnityEditor.UI.csproj": {
+                "projectPath": "C:\\Users\\swift\\OneDrive\\Documents\\GitHub\\grimdanger\\grimdanger\\UnityEditor.UI.csproj"
+              },
+              "C:\\Users\\swift\\OneDrive\\Documents\\GitHub\\grimdanger\\grimdanger\\UnityEngine.UI.csproj": {
+                "projectPath": "C:\\Users\\swift\\OneDrive\\Documents\\GitHub\\grimdanger\\grimdanger\\UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\swift\\OneDrive\\Documents\\GitHub\\grimdanger\\grimdanger\\UnityEditor.TestRunner.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\swift\\OneDrive\\Documents\\GitHub\\grimdanger\\grimdanger\\UnityEditor.TestRunner.csproj",
+        "projectName": "UnityEditor.TestRunner",
+        "projectPath": "C:\\Users\\swift\\OneDrive\\Documents\\GitHub\\grimdanger\\grimdanger\\UnityEditor.TestRunner.csproj",
+        "packagesPath": "C:\\Users\\swift\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\swift\\OneDrive\\Documents\\GitHub\\grimdanger\\grimdanger\\Temp\\obj\\Debug\\UnityEditor.TestRunner\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\swift\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "C:\\Users\\swift\\OneDrive\\Documents\\GitHub\\grimdanger\\grimdanger\\UnityEngine.TestRunner.csproj": {
+                "projectPath": "C:\\Users\\swift\\OneDrive\\Documents\\GitHub\\grimdanger\\grimdanger\\UnityEngine.TestRunner.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\swift\\OneDrive\\Documents\\GitHub\\grimdanger\\grimdanger\\UnityEditor.UI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\swift\\OneDrive\\Documents\\GitHub\\grimdanger\\grimdanger\\UnityEditor.UI.csproj",
+        "projectName": "UnityEditor.UI",
+        "projectPath": "C:\\Users\\swift\\OneDrive\\Documents\\GitHub\\grimdanger\\grimdanger\\UnityEditor.UI.csproj",
+        "packagesPath": "C:\\Users\\swift\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\swift\\OneDrive\\Documents\\GitHub\\grimdanger\\grimdanger\\Temp\\obj\\Debug\\UnityEditor.UI\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\swift\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "C:\\Users\\swift\\OneDrive\\Documents\\GitHub\\grimdanger\\grimdanger\\UnityEditor.TestRunner.csproj": {
+                "projectPath": "C:\\Users\\swift\\OneDrive\\Documents\\GitHub\\grimdanger\\grimdanger\\UnityEditor.TestRunner.csproj"
+              },
+              "C:\\Users\\swift\\OneDrive\\Documents\\GitHub\\grimdanger\\grimdanger\\UnityEngine.TestRunner.csproj": {
+                "projectPath": "C:\\Users\\swift\\OneDrive\\Documents\\GitHub\\grimdanger\\grimdanger\\UnityEngine.TestRunner.csproj"
+              },
+              "C:\\Users\\swift\\OneDrive\\Documents\\GitHub\\grimdanger\\grimdanger\\UnityEngine.UI.csproj": {
+                "projectPath": "C:\\Users\\swift\\OneDrive\\Documents\\GitHub\\grimdanger\\grimdanger\\UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\swift\\OneDrive\\Documents\\GitHub\\grimdanger\\grimdanger\\UnityEngine.TestRunner.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\swift\\OneDrive\\Documents\\GitHub\\grimdanger\\grimdanger\\UnityEngine.TestRunner.csproj",
+        "projectName": "UnityEngine.TestRunner",
+        "projectPath": "C:\\Users\\swift\\OneDrive\\Documents\\GitHub\\grimdanger\\grimdanger\\UnityEngine.TestRunner.csproj",
+        "packagesPath": "C:\\Users\\swift\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\swift\\OneDrive\\Documents\\GitHub\\grimdanger\\grimdanger\\Temp\\obj\\Debug\\UnityEngine.TestRunner\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\swift\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\swift\\OneDrive\\Documents\\GitHub\\grimdanger\\grimdanger\\UnityEngine.UI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\swift\\OneDrive\\Documents\\GitHub\\grimdanger\\grimdanger\\UnityEngine.UI.csproj",
+        "projectName": "UnityEngine.UI",
+        "projectPath": "C:\\Users\\swift\\OneDrive\\Documents\\GitHub\\grimdanger\\grimdanger\\UnityEngine.UI.csproj",
+        "packagesPath": "C:\\Users\\swift\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\swift\\OneDrive\\Documents\\GitHub\\grimdanger\\grimdanger\\Temp\\obj\\Debug\\UnityEngine.UI\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\swift\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
