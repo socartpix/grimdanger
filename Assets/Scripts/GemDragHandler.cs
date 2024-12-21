@@ -40,10 +40,10 @@ public class GemDragHandler : MonoBehaviour, IBeginDragHandler, IDragHandler, IE
         {
             GemSlot gemSlot = eventData.pointerEnter.GetComponent<GemSlot>();
 
-            if (gemSlot != null && gemSlot.CanAcceptGem())
+            if (gemSlot != null )
             {
                 // Colocar la gema en el slot
-                gemSlot.AddGem(gameObject);
+               // gemSlot.AddGem(gameObject);
 
                 // Ajustar posición en el slot
                 RectTransform slotRect = gemSlot.GetComponent<RectTransform>();

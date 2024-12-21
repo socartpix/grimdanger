@@ -2164,6 +2164,7 @@ GameObject:
   - component: {fileID: 1788892711}
   - component: {fileID: 1788892713}
   - component: {fileID: 1788892712}
+  - component: {fileID: 1788892714}
   m_Layer: 5
   m_Name: CraftTable
   m_TagString: Untagged
@@ -2231,6 +2232,30 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1788892710}
   m_CullTransparentMesh: 1
+--- !u!114 &1788892714
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788892710}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c759b799258bec4099ba79811099068, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Gems_blue:
+  - {fileID: 166410273}
+  - {fileID: 2037956885}
+  - {fileID: 234913367}
+  Gems_red:
+  - {fileID: 1641751983}
+  - {fileID: 734749966}
+  - {fileID: 1179003187}
+  Gems_yellow:
+  - {fileID: 11395872}
+  - {fileID: 1801725895}
+  - {fileID: 2088905809}
 --- !u!1 &1801725895
 GameObject:
   m_ObjectHideFlags: 0

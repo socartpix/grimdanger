@@ -6,13 +6,18 @@ public class DragandDropImage : MonoBehaviour, IBeginDragHandler, IDragHandler, 
 {
     public enum DragType
     {
-        SingleImage,    
-        MultipleImage   
+        SingleImage,
+        MultipleImage
     }
+
+    // Variables estáticas para los slots
+    public static string gemSlot1 = "";
+    public static string gemSlot2 = "";
+    public static int slotCount = 0;
 
     public static bool canDrag = true;
     public DragType dragType;
-
+    
     private RectTransform dragRectTransform;
     private Transform originalParent;
     private Vector3 originalPosition;
@@ -22,7 +27,7 @@ public class DragandDropImage : MonoBehaviour, IBeginDragHandler, IDragHandler, 
     public string allowedSlotName;
     private GameObject clone;
     private Image imageComponent;
-    private bool isPlaced = false; // Para rastrear si la imagen está en un slot
+    private bool isPlaced = false;
 
     void Start()
     {
@@ -36,7 +41,7 @@ public class DragandDropImage : MonoBehaviour, IBeginDragHandler, IDragHandler, 
 
     public void OnBeginDrag(PointerEventData eventData)
     {
-        if (canDrag && !isPlaced) // Solo permitir arrastrar si no está colocada
+        if (canDrag && !isPlaced)
         {
             clone = Instantiate(gameObject, transform.position, transform.rotation, originalParent);
             
@@ -50,7 +55,6 @@ public class DragandDropImage : MonoBehaviour, IBeginDragHandler, IDragHandler, 
             dragRectTransform = clone.GetComponent<RectTransform>();
             dragRectTransform.anchoredPosition += new Vector2(0, 60f);
             
-            // Asegurarse de que el clon tenga este script y configurarlo correctamente
             DragandDropImage cloneScript = clone.GetComponent<DragandDropImage>();
             if (cloneScript != null)
             {
@@ -84,6 +88,20 @@ public class DragandDropImage : MonoBehaviour, IBeginDragHandler, IDragHandler, 
                     {
                         Debug.Log("Soltado sobre el slot permitido: " + allowedSlotName);
 
+                        // Guardar el nombre de la gema en el slot correspondiente
+                        if (slotCount == 0)
+                        {
+                            gemSlot1 = gameObject.name;
+                            slotCount++;
+                            Debug.Log("Gema en slot 1: " + gemSlot1);
+                        }
+                        else if (slotCount == 1)
+                        {
+                            gemSlot2 = gameObject.name;
+                            slotCount ++; 
+                            Debug.Log("Gema en slot 2: " + gemSlot2);
+                        }
+
                         if (dragType == DragType.SingleImage)
                         {
                             Image[] existingImages = eventData.pointerEnter.GetComponentsInChildren<Image>();
@@ -107,13 +125,11 @@ public class DragandDropImage : MonoBehaviour, IBeginDragHandler, IDragHandler, 
                         imageRect.anchoredPosition = Vector2.zero;
                         imageRect.sizeDelta = slotRect.sizeDelta * 0.9f;
 
-                        // Marcar el clon como colocado
                         DragandDropImage cloneScript = clone.GetComponent<DragandDropImage>();
                         if (cloneScript != null)
                         {
                             cloneScript.isPlaced = true;
                         }
-    
                     }
                     else
                     {
@@ -130,7 +146,6 @@ public class DragandDropImage : MonoBehaviour, IBeginDragHandler, IDragHandler, 
         }
     }
 
-    // Nuevo método para manejar los clicks
     public void OnPointerClick(PointerEventData eventData)
     {
         if (isPlaced)
@@ -138,5 +153,24 @@ public class DragandDropImage : MonoBehaviour, IBeginDragHandler, IDragHandler, 
             Debug.Log("Imagen clickeada - destruyendo");
             Destroy(gameObject);
         }
+    }
+
+    // Método para obtener los nombres de las gemas en los slots
+    public static string GetGemSlot1()
+    {
+        return gemSlot1;
+    }
+
+    public static string GetGemSlot2()
+    {
+        return gemSlot2;
+    }
+
+    // Método para resetear los slots
+    public static void ResetSlots()
+    {
+        gemSlot1 = "";
+        gemSlot2 = "";
+        slotCount = 0;
     }
 }

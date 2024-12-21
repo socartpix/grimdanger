@@ -1,5 +1,8 @@
 is_global = true
 build_property.RootNamespace = 
-build_property.ProjectDir = C:\Users\swift\OneDrive\Documents\GitHub\grimdanger\grimdanger\
+build_property.ProjectDir = D:\1.Game proyects\Grimdanger\grimdanger\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.CsWinRTUseWindowsUIXamlProjections = false
+build_property.EffectiveAnalysisLevelStyle = 
+build_property.EnableCodeStyleSeverity = 

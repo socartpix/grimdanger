@@ -10,6 +10,12 @@ public class GameManager : MonoBehaviour
     public int currentGems;
     
     public int Gems { get; private set; }
+        
+    public static int Gems_blue=0 ;
+        
+    public static int Gems_red=0  ;
+        
+    public static int Gems_yellow=0  ;
     public int RMB { get; private set; }
 
     public int PlayerHealth 
@@ -53,6 +59,16 @@ public class GameManager : MonoBehaviour
         Debug.Log("Player Health: " + PlayerHealth);
     }
 
+    public void SetBlue(){
+        Gems_blue++;
+    }
+    
+    public void SetRed(){
+        Gems_red++;
+    }    
+    public void SetYellow(){
+        Gems_yellow++;
+    }
     private void GameOver()
     {
         Debug.Log("Game Over");

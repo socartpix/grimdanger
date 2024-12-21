@@ -89,6 +89,7 @@ public class GemCollector : MonoBehaviour
     {
         if (playerController != null)
         {
+            gameManager.SetBlue();
             playerController.moveSpeed = originalMoveSpeed + blueGemSpeedBoost;
             // Opcional: Crear una corrutina para revertir el efecto después de un tiempo
             StartCoroutine(ResetSpeedAfterDelay(5f)); // 5 segundos de efecto
@@ -97,13 +98,14 @@ public class GemCollector : MonoBehaviour
 
     private void ApplyYellowGemEffect()
     {
-        
+        gameManager.SetYellow();
         gameManager.SetPlayerHealth(yellowGemHealthRestore);
         
     }
 
     private void ApplyRedGemEffect()
-    {
+    { 
+        gameManager.SetRed();
         EnemyHealth.damage = 20;
         StartCoroutine(ResetDamageAfterDelay(10f)); // 5 segundos de efecto
     }
